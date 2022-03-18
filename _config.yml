@@ -1,5 +1,5 @@
 title: System Programing - Pemerograman Sistem
-version:     "025---18-Mar-2022"
+version:     "025a---18-Mar-2022"
 copyright:   "2021-2022"
 description: This is the System Programing course site,
       a GitHub Page, hosted at GitHub.com (thank you!).
@@ -22,7 +22,7 @@ urlweb:           "https://sp.vlsm.org/"
 urlscele:         "https://scele.cs.ui.ac.id/course/view.php?id=3356"
 urllogcode:       "https://osp4diss.vlsm.org/ETC/logCodes.txt"
 urlcontact:       "TBA"
-urlgithub:        "https://github.com/os2xx/sp/"
+urlgithub:        "https://github.com/os2xx/sysprog/"
 urlghpage:        "https://sp.vlsm.org/"
 keywords:         "jekyll, testing"
 github:           [metadata]

@@ -1,0 +1,2 @@
+% REV004 Mon 21 Feb 2022 11:40:26 WIB
+\documentclass[aspectratio=169, xcolor=table, notheorems, hyperref={pdfpagelabels=false}]{beamer}

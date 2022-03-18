@@ -1,0 +1,186 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation - LaTeX - Template Version 1.0 (10/11/12)
+% This template has been downloaded from: http://www.LaTeXTemplates.com
+% License: % CC BY-NC-SA 3.0 (http://creativecommons.org/)
+% Modified by Rahmat M. Samik-Ibrahim
+
+% REV003 Mon 14 Feb 2022 21:50:54 WIB
+% REV001 Mon 07 Feb 2022 05:54:47 WIB
+% STARTX Wed 14 Sep 2016 10:45:19 WIB
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PACKAGES AND THEMES 
+\documentclass[aspectratio=169, xcolor=table, notheorems, hyperref={pdfpagelabels=false}]{beamer}
+\input{beamer.tex}
+\input{spHH.tex}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+% The short title appears at the bottom of every slide, 
+% the full title is only on the title page
+% \date{\today}
+\title[\kopikopi]
+{CSCE604227 System Programming \\
+CSCE604227 Pemrograman Sistem \\
+Week 01:
+Linux Kernel and Programming Interface}
+\author{C. BinKadal}
+\institute[SDN]
+{
+Sendirian Berhad\\
+\medskip
+\url{https://sp.vlsm.org/Slides/sp01.pdf}
+\\ \texttt{Always check for the latest revision!}
+}
+\date{\revision}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{document}
+
+\lstset{
+basicstyle=\ttfamily\tiny, % \tiny \small \footnotesize 
+breakatwhitespace=true,
+language=C,
+columns=fullflexible,
+keepspaces=true,
+breaklines=true,
+tabsize=3, 
+showstringspaces=false,
+extendedchars=true}
+
+\section{Start}
+\begin{frame}
+\titlepage
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\input{spII-jadwal.tex}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+% Throughout your presentation, if you choose to use \section{} and 
+% \subsection{} commands, these will automatically be printed on 
+% this slide as an overview of your presentation
+\section{Agenda}
+\begin{frame}{Outline}
+  \frametitle{Agenda}
+  \tableofcontents[sections={1-}]
+\end{frame}
+% \begin{frame}
+%    \frametitle{Agenda (2)}
+%    \tableofcontents[sections={12-}]
+% \end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{The Linux Kernel Archives}
+\begin{frame}[fragile]
+\frametitle{The Linux Kernel Archives}
+\begin{itemize}
+\item URL: \url{https://kernel.org/}
+\begin{itemize}
+\item HTTP: \url{https://www.kernel.org/pub/}
+\item Kernel Source: \url{https://www.kernel.org/pub/linux/kernel/}
+\end{itemize}
+\item 14-Feb-2022 --- 5.16.9 --- \url{https://www.kernel.org/finger_banner}
+% \begin{lstlisting}[basicstyle=\ttfamily\tiny]
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+The latest stable version of the Linux kernel is:             5.16.9
+The latest mainline version of the Linux kernel is:           5.17-rc4
+The latest stable 5.16 version of the Linux kernel is:        5.16.9
+The latest longterm 5.15 version of the Linux kernel is:      5.15.23
+The latest longterm 5.10 version of the Linux kernel is:      5.10.100
+[...]
+The latest longterm 4.9 version of the Linux kernel is:       4.9.301
+The latest longterm 4.4 version of the Linux kernel is:       4.4.302 (EOL)
+The latest linux-next version of the Linux kernel is:         next-20220214
+\end{lstlisting}
+\item How to compile Linux Kernel on Debian VirtualBox Guest --- \url{https://doit.vlsm.org/007.html}.
+\item Debian Packages List: \url{https://osp4diss.vlsm.org/osp-103.html}
+\end{itemize}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{The Linux Programming Interface}
+\begin{frame}[fragile]
+\frametitle{The Linux Programming Interface (1)}
+\begin{itemize}
+\item URL: \url{https://man7.org/tlpi/}
+\item Purchasing: \url{https://man7.org/tlpi/purchase.html}
+\item Source Code: \url{https://man7.org/tlpi/code/}
+\begin{itemize}
+\item Lastest Distribution: \url{https://man7.org/tlpi/code/download/tlpi-220211-dist.tar.gz}
+\item Download Full List: \url{https://man7.org/tlpi/code/download/}
+\end{itemize}
+\item README: \url{https://man7.org/tlpi/code/README.html}
+\item BUILDING notes: \url{https://man7.org/tlpi/code/BUILDING.html}
+\item FAQ: \url{https://man7.org/tlpi/code/faq.html}
+\item Debian Packages List: \url{https://osp4diss.vlsm.org/osp-103.html}
+\end{itemize}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{frame}[fragile]
+\frametitle{The Linux Programming Interface (2)}
+\begin{itemize}
+\item Test: \texttt{time/calendar\_time}
+
+% \begin{lstlisting}[basicstyle=\ttfamily\tiny]
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+
+cbkadal@cbkadal:~/src/tlpi-dist$ time/calendar_time 
+Seconds since the Epoch (1 Jan 1970): 1644855271 (about 52.123 years)
+  gettimeofday() returned 1644855271 secs, 35730 microsecs
+Broken down by gmtime():
+  year=122 mon=1 mday=14 hour=16 min=14 sec=31 wday=1 yday=44 isdst=0
+Broken down by localtime():
+  year=122 mon=1 mday=14 hour=23 min=14 sec=31 wday=1 yday=44 isdst=0
+
+asctime() formats the gmtime() value as: Mon Feb 14 16:14:31 2022
+ctime() formats the time() value as:     Mon Feb 14 23:14:31 2022
+mktime() of gmtime() value:    1644830071 secs
+mktime() of localtime() value: 1644855271 secs
+
+cbkadal@cbkadal:~/src/tlpi-dist$
+
+\end{lstlisting}
+\end{itemize}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{frame}[fragile]
+\frametitle{The Linux Programming Interface (3)}
+\begin{itemize}
+\item Test: \texttt{getopt/t\_getopt} (TLPI Appendix B)
+% \begin{lstlisting}[basicstyle=\ttfamily\small]
+\begin{lstlisting}[basicstyle=\ttfamily\tiny]
+cbkadal@cbkadal:~/src/tlpi-dist$ getopt/t_getopt -x -p hello world
+opt =120 (x); optind = 2
+opt =112 (p); optind = 4
+-x was specified (count=1)
+-p was specified with the value "hello"
+First nonoption argument is "world" at argv[4]
+
+cbkadal@cbkadal:~/src/tlpi-dist$ getopt/t_getopt -p
+opt = 58 (:); optind = 2; optopt =112 (p)
+Missing argument (-p)
+Usage: getopt/t_getopt [-p arg] [-x]
+
+cbkadal@cbkadal:~/src/tlpi-dist$ getopt/t_getopt -a
+opt = 63 (?); optind = 2; optopt = 97 (a)
+Unrecognized option (-a)
+Usage: getopt/t_getopt [-p arg] [-x]
+
+cbkadal@cbkadal:~/src/tlpi-dist$ getopt/t_getopt -p str -- -x
+opt =112 (p); optind = 3
+-p was specified with the value "str"
+First nonoption argument is "-x" at argv[4]
+
+cbkadal@cbkadal:~/src/tlpi-dist$ getopt/t_getopt -p -x
+opt =112 (p); optind = 3
+-p was specified with the value "-x"
+
+\end{lstlisting}
+\end{itemize}
+\end{frame}
+
+\end{document}
+

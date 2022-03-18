@@ -1,0 +1,255 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation - LaTeX - Template Version 1.0 (10/11/12)
+% This template has been downloaded from: http://www.LaTeXTemplates.com
+% License: % CC BY-NC-SA 3.0 (http://creativecommons.org/)
+% Modified by Rahmat M. Samik-Ibrahim
+
+% REV004 Mon 21 Feb 2022 13:30:00 WIB
+% REV003 Mon 14 Feb 2022 21:50:54 WIB
+% REV001 Mon 07 Feb 2022 05:54:47 WIB
+% STARTX Wed 14 Sep 2016 10:45:19 WIB
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% PACKAGES AND THEMES 
+\documentclass[aspectratio=169, xcolor=table, notheorems, hyperref={pdfpagelabels=false}]{beamer}
+\input{beamer.tex}
+\input{spHH.tex}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+% The short title appears at the bottom of every slide, 
+% the full title is only on the title page
+% \date{\today}
+\title[\kopikopi]
+{CSCE604227 System Programming \\
+CSCE604227 Pemrograman Sistem \\
+Week 02:
+Revisit Linux From Scratch}
+\author{C. BinKadal}
+\institute[SDN]
+{
+Sendirian Berhad\\
+\medskip
+\url{https://sp.vlsm.org/Slides/sp02.pdf}
+\\ \texttt{Always check for the latest revision!}
+}
+\date{\revision}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{document}
+
+\lstset{
+basicstyle=\ttfamily\tiny, % \tiny \small \footnotesize 
+breakatwhitespace=true,
+language=C,
+columns=fullflexible,
+keepspaces=true,
+breaklines=true,
+tabsize=3, 
+showstringspaces=false,
+extendedchars=true}
+
+\section{Start}
+\begin{frame}
+\titlepage
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\input{spII-jadwal.tex}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+% Throughout your presentation, if you choose to use \section{} and
+% \subsection{} commands, these will automatically be printed on
+% this slide as an overview of your presentation
+\section{Agenda}
+\begin{frame}{Outline}
+  \frametitle{Agenda}
+  \tableofcontents[sections={1-}]
+\end{frame}
+% \begin{frame}
+%    \frametitle{Agenda (2)}
+%    \tableofcontents[sections={12-}]
+% \end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{LFS: Linux From Scratch}
+\begin{frame}
+\frametitle{LFS: Linux From Scratch}
+\begin{itemize}
+\item \href{https://youtu.be/jEoM3qan9Gs}{THIS IS HOW WE DOIT!}
+\item \url{http://www.linuxfromscratch.org/lfs/view/stable/}
+\item To build a GNU/Linux system from scratch (source code).
+\item To learn a GNU/Linux system inside out.
+\item To use a Virtual Machine.
+\item A Chicken and Egg dependency problem:
+\begin{itemize}
+\item It would be best if you had the tools to build an Operating System.
+\item You need an Operating System to build tools.
+\item To build a cross-toolchain (compiler and its libraries).
+\item To build cross utilities using the cross-toolchain.
+\item To build an Operating System in a chroot environment.
+\item To do iterations (if necessary).
+\end{itemize}
+\item How deep would you like to know of a ''real'' Operating System?
+\item \textbf{YOU} decide!
+\end{itemize}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{Gnulib --- The GNU Portability Library}
+\begin{frame}
+\frametitle{Gnulib --- The GNU Portability Library\footnote{%
+) Adopted from \url{https://www.gnu.org/software/gnulib/}%
+})}
+
+\begin{itemize}
+\item a central location for common GNU code
+\item intended to be shared among GNU packages at the source level
+\item no distribution tarball 
+\item See also:
+\begin{itemize}
+\item GNU Coding Standards --- \url{https://www.gnu.org/prep/standards/}
+\item Information for maintainers --- \url{https://www.gnu.org/prep/maintain/}
+\item Licenses --- \url{https://www.gnu.org/licenses/}
+\item Config --- \url{https://savannah.gnu.org/projects/config/}
+\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{Autotools}
+\begin{frame}
+\frametitle{Autotools\footnote{%
+) Adopted from \url{https://www.gnu.org/software/automake/faq/}%
+})}
+
+\begin{itemize}
+\item Refers to the software packages, consists of programs:
+\begin{itemize}
+\item Autoconf: helps create portable configure and testsuite scripts.
+\begin{itemize}
+\item URL: \url{https://www.gnu.org/software/autoconf/}
+\item autoreconf
+\item autoconf
+\item autoheader
+\item autoscan
+\end{itemize}
+\item Automake: helps create portable Makefiles.
+\begin{itemize}
+\item URL: \url{https://www.gnu.org/software/automake/}
+\item aclocal
+\item automake
+\end{itemize}
+\item Libtool: helps create and use shared libraries portably. 
+\begin{itemize}
+\item URL: \url{https://www.gnu.org/software/libtool/}
+\item libtoolize
+\end{itemize}
+\end{itemize}
+\item See also:
+\begin{itemize}
+\item Autotools Mythbuster --- \url{https://autotools.info/}
+\item \href{https://www.gnu.org/savannah-checkouts/gnu/automake/manual/automake.html\#Hello-World}{Small Autotools ''Hello World'' Example}
+\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{Small Autotools "Hello World" Example}
+\begin{frame}[fragile]
+\frametitle{Small Autotools "Hello World" Example (1)\footnote{%
+) Adopted from {\tiny \url{https://www.gnu.org/savannah-checkouts/gnu/automake/manual/automake.html\#Hello-World}}%
+})}
+
+\begin{itemize}
+\item Try this and push it to \url{https://github.com/os2xx/sharesp221/}
+\begin{itemize}
+\item Work inside your \texttt{autotools/} folder.
+\end{itemize}
+
+\item \textbf{Filename:} \texttt{src/main.c}
+% \begin{lstlisting}[basicstyle=\ttfamily\tiny]
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+
+#include <config.h>
+#include <stdio.h>
+
+int
+main (void)
+{
+  puts ("Hello World!");
+  puts ("I am cbkadal and this is " PACKAGE_STRING ".");
+  return 0;
+}
+
+\end{lstlisting}
+\end{itemize}
+
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{frame}[fragile]
+\frametitle{Small Autotools "Hello World" Example (2)}
+
+\begin{itemize}
+\item \textbf{Filename:} \texttt{README}
+% \begin{lstlisting}[basicstyle=\ttfamily\tiny]
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+This is a demonstration package for GNU Automake.
+Type 'info Automake' to read the Automake manual.
+Makefile.am and src/Makefile.am contain Automake instructions 
+for these two directories.
+\end{lstlisting}
+
+\item \textbf{Filename:} \texttt{src/Makefile.am}
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+bin_PROGRAMS = hello
+hello_SOURCES = main.c
+\end{lstlisting}
+
+\item \textbf{Filename:} \texttt{Makefile.am}
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+SUBDIRS = src
+dist_doc_DATA = README
+
+\end{lstlisting}
+\end{itemize}
+
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{frame}[fragile]
+\frametitle{Small Autotools "Hello World" Example (3)}
+
+\begin{itemize}
+\item \textbf{Filename:} \texttt{configure.ac}
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+AC_INIT([amhello], [1.0], [bug-automake@gnu.org])
+AM_INIT_AUTOMAKE([-Wall -Werror foreign])
+AC_PROG_CC
+AC_CONFIG_HEADERS([config.h])
+AC_CONFIG_FILES([
+   Makefile
+   src/Makefile
+])
+AC_OUTPUT
+
+\end{lstlisting}
+
+\item \textbf{RUN:}
+\begin{lstlisting}[basicstyle=\ttfamily\small]
+autoreconf --install
+./configure
+make
+src/hello
+
+\end{lstlisting}
+\end{itemize}
+
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\end{document}
+

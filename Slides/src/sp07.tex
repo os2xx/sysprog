@@ -4,6 +4,7 @@
 % License: % CC BY-NC-SA 3.0 (http://creativecommons.org/)
 % Modified by Rahmat M. Samik-Ibrahim
 
+% REV009 Mon 18 Apr 2022 06:00:00 WIB
 % REV008 Sun 17 Apr 2022 23:30:00 WIB
 % REV003 Mon 14 Feb 2022 21:50:54 WIB
 % REV001 Mon 07 Feb 2022 05:54:47 WIB
@@ -79,6 +80,8 @@ extendedchars=true}
 \item The Linux Kernel Module Programming Guide --- \url{https://sysprog21.github.io/lkmpg/}
 \item Devices ---
       \url{https://git.kernel.org/pub/scm/linux/kernel/git/stable/linux.git/tree/Documentation/admin-guide/devices.txt}
+\item Examples ---
+      \url{https://github.com/sysprog21/lkmpg/tree/master/examples/}
 \end{itemize}
 \end{frame}
 
@@ -89,6 +92,7 @@ extendedchars=true}
 \begin{itemize}
 \item \texttt{Makefile}
 \begin{itemize}
+\item \texttt{ROOT/USER}
 \item \texttt{make H01ins}
 \item \texttt{make H01del}
 \item \texttt{make H02ins}
@@ -103,7 +107,19 @@ extendedchars=true}
 \item \texttt{\ldots}
 \end{itemize}
 \item \texttt{/var/log/kern.log}
+\end{itemize}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{PROC File System}
+\begin{frame}[fragile]
+\frametitle{PROC File System}
+\begin{itemize}
+\item \texttt{/proc/cpuinfo}
 \item \texttt{/proc/kallsyms}
+\item \texttt{/proc/meminfo}
+\item \texttt{/proc/modules}
+\item \texttt{/proc/version}
 \end{itemize}
 \end{frame}
 
@@ -112,15 +128,14 @@ extendedchars=true}
 \begin{frame}[fragile]
 \frametitle{Linux Kernel Module}
 \begin{itemize}
-\item \texttt{root mode/user mode}
-\item \texttt{init\_module(void)/cleanup\_module(void)}
+\item \texttt{init\_module()/cleanup\_module()}
 \item \texttt{module\_init()/module\_exit()}
 \item \texttt{pr\_info()}
 \item \texttt{module\_param()}
 \item \texttt{module\_param\_array()}
+\item \texttt{copy\_to\_user()/copy\_from\_user()}
 \end{itemize}
 \end{frame}
 
 \end{document}
-
 

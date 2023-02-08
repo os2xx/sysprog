@@ -1,0 +1,131 @@
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+\section{Final Grade}
+\begin{frame}
+\frametitle{Final Grade}
+
+\begin{itemize}
+\item The final grade will be the best 9 out of 11 assignments.
+\begin{itemize}
+\item Do not ask for any dispensations like a broken computer, circumcision (sunat), cold, competitions
+      (including Gemastik), deadline extension, influenza, lame excuses, marriage, mourning,
+      power failure, remedial, return to the village (mudik), slow network (lemot), two-semester evaluation, umrah,
+      weddings, etc. It also includes: ''It is not my fault but of $\{ X\!: X\ \in\ Lecturer\ \parallel\ Fasilkom\
+      \parallel\ UI\ \parallel\ Kampus\ Merdeka\ \parallel\ Immigration\ \parallel\ Foreign\ Embassy\ \parallel\
+      else\, \}$.''
+\item \textbf{Two (2) ''spare'' assignments will be more than enough!}
+\item In case of emergency, contact your Academic Advisor!
+\end{itemize}
+\item Score Range\\[5pt]
+\begin{tabular}{l l l l}
+\hline
+85 - ... = A & 80 - 85 = A- & 75 - 80 = B+ & 70 - 75 = B \\
+65 - 70 = B-      & 60 - 65 = C+ & 55 - 60 = C  &
+50 - 55 = D or C\footnote{Terms and conditions apply --- void where prohibited by law.}  \\
+40 - 50 = D  & 30 - 40 = E  & 20 - 30 = \small E & 00 - 20 = \tiny E   \\
+\hline \end{tabular}\\[5pt]
+\item \textbf{C-2C (C minus to C)}
+\begin{itemize}
+\item Up to 5 points, only if:
+\begin{itemize}
+\item your grade is between 50.00 and 55.00, and
+\item you have a ''good'' track record.
+\end{itemize}
+\end{itemize}
+\end{itemize}
+
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{The Three-Strikes Rule}
+\begin{frame}[fragile]
+\frametitle{The Three-Strikes Rule}
+
+\begin{figure}
+\includegraphics[width=0.37\linewidth]{os-cheating}
+\end{figure}
+
+\begin{itemize}
+\item All major academic rules violations will be handled directly by the Faculty of Computer Science,
+University of Indonesia.
+\item ''Accidents'' may happen. There will be warnings for the first two minor violations.
+\item Your final grade will be reduced for the third warning.
+\item Your final grade will be reduced to "D" for the fourth warning.
+\item Five (5) or more warnings will be considered as a significant academic-rules violation.
+\end{itemize}
+
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{Miscellaneous}
+\begin{frame}[fragile]
+\frametitle{Out of Topic/Intermezzo/Segue}
+\begin{itemize}
+\item Semiconductor Scalling.
+\begin{itemize}
+\item 1971: $10 \mu{}m$
+\item 1984: $1 \mu{}m$
+\item 1996: $250 nm$
+\item 2016: $10 nm$
+\item 2020: $5 nm$
+\item 2022: $3 nm$
+\end{itemize}
+\item Fairchild Semiconductor Indonesia.
+\item National Semiconductor Indonesia.
+\item Minister of Manpower (Menteri Tenaga Kerja) 1983–1988.
+\item Marvell Technology, Inc (1995).
+\item SoC: System on a Chip.
+\item SiP: System in a Package.
+\item TSMC: Taiwan Semiconductor Manufacturing Company, Ltd.
+\item ASML Holding, N.V: Advanced Semiconductor Materials Lithography.
+\item Carl Zeiss SMT GmbH (This is NOT Optik Seis, Duh :).
+\end{itemize}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\begin{frame}[fragile]
+\frametitle{The Computing Diciplines}
+\begin{figure}
+\includegraphics[width=0.59\linewidth]{pic-cc2005}
+\caption{The Computing Diciplines}
+\end{figure}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{Assignments}
+\begin{frame}[fragile]
+\frametitle{Assignments}
+\begin{itemize}
+\item There will be no mid-term (UTS) nor final-term (UAS).
+      Instead, there will be 11 weekly assignments.
+      Your grade will be taken from the best 9 out of 11 assignments.
+\item You need to run ''VirtualBox'' on a computer with more than 4GB RAM and up to 64 GB disk space.
+\item Each assignment deadline will be by the end of that ''week''.
+      The weekly schedule will be at \url{https://sp.vlsm.org/\#idx02}.
+\item Submit (push) the assignments to \url{https://github.com/}.
+      If you still don't have one, you need to sign up for a \url{https://github.com/} account.
+      More information will follow.
+\item See the assignment list at \url{https://osp4diss.vlsm.org/ASP.html}.
+\end{itemize}
+\end{frame}
+
+% XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+\section{This is an elective course!}
+\begin{frame}[fragile]
+\frametitle{This is an elective course!}
+
+\begin{itemize}
+\item You are not required to take this course!
+\item This course is not for you if you:
+\begin{itemize}
+\item do not like the Operating Systems course.
+\item do not like to get your hands dirty.
+\item do not have enthusiasm nor initiative at all.
+\item do not like to ''hack''.
+\end{itemize}
+\item Cold Feet? Second Guess?  You might want to drop this course now (this week)!
+\item This is the way!
+\end{itemize}
+
+\end{frame}
+

@@ -8,6 +8,7 @@ title:  "System Programming - Pemerograman Sistem"
 * [See Report](/Log/)
 * [Weekly Assignments](https://osp4diss.vlsm.org/ASP.html)
 * [HOW TO CONTACT the lecturer](#idx01)
+* [SCELE]({{ site.urlscele }})
 * [Schedule](#idx02)
 * [LINKS](#idx03)
 

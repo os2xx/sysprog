@@ -3,11 +3,11 @@ layout: "layout"
 title: REPORT
 ---
 
-## Week: W01 Rev: 25-Feb-2023 22:20
+## Week: W02 Rev: 05-Mar-2023 18:00
 
 001. adillahptr: [GH](https://github.com/adillahptr/sp231/) [GHP](https://adillahptr.github.io/sp231/) [LOG](https://adillahptr.github.io/sp231/TXT/mylog.txt) [TARBALL](adillahptr.tar.bz2.txt)<br>
 002. bintangbhp: [GH](https://github.com/bintangbhp/sp231/) [GHP](https://bintangbhp.github.io/sp231/) [LOG](https://bintangbhp.github.io/sp231/TXT/mylog.txt) [TARBALL](bintangbhp.tar.bz2.txt)<br>
-003. csq307: [GH](https://github.com/csq307/sp231/) [TARBALL](csq307.tar.bz2.txt)<br>
+003. csq307: [GH](https://github.com/csq307/sp231/) [GHP](https://csq307.github.io/sp231/) [LOG](https://csq307.github.io/sp231/TXT/mylog.txt) [TARBALL](csq307.tar.bz2.txt)<br>
 004. fwibisono87: [GH](https://github.com/fwibisono87/sp231/) [GHP](https://fwibisono87.github.io/sp231/) [LOG](https://fwibisono87.github.io/sp231/TXT/mylog.txt) [TARBALL](fwibisono87.tar.bz2.txt)<br>
 005. haikalrmn: [GH](https://github.com/haikalrmn/sp231/) [GHP](https://haikalrmn.github.io/sp231/) [LOG](https://haikalrmn.github.io/sp231/TXT/mylog.txt) [TARBALL](haikalrmn.tar.bz2.txt)<br>
 006. hanifsyuaib: [GH](https://github.com/hanifsyuaib/sp231/) [GHP](https://hanifsyuaib.github.io/sp231/) [LOG](https://hanifsyuaib.github.io/sp231/TXT/mylog.txt) [TARBALL](hanifsyuaib.tar.bz2.txt)<br>

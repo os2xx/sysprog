@@ -3,7 +3,7 @@ layout: "layout"
 title: REPORT
 ---
 
-## Week: W02 Rev: 08-Mar-2023 12:07
+## Week: W03 Rev: 11-Mar-2023 21:41
 
 To Get CBKADAL`s TARBALL:
 
@@ -19,7 +19,7 @@ wget -c https://cbkadal.github.io/sp231/SandBox/cbkadal.tar.xz
 005. haikalrmn: [GH](https://github.com/haikalrmn/sp231/) [GHP](https://haikalrmn.github.io/sp231/) [LOG](https://haikalrmn.github.io/sp231/TXT/mylog.txt) [TARBALL](haikalrmn.tar.bz2.txt)<br>
 006. hanifsyuaib: [GH](https://github.com/hanifsyuaib/sp231/) [GHP](https://hanifsyuaib.github.io/sp231/) [LOG](https://hanifsyuaib.github.io/sp231/TXT/mylog.txt) [TARBALL](hanifsyuaib.tar.bz2.txt)<br>
 007. Meta502: [GH](https://github.com/Meta502/sp231/) [GHP](https://Meta502.github.io/sp231/) [LOG](https://Meta502.github.io/sp231/TXT/mylog.txt) [TARBALL](Meta502.tar.bz2.txt)<br>
-008. michelleshie: [TARBALL](michelleshie.tar.bz2.txt)<br>
+008. michelleshie: [GH](https://github.com/michelleshie/sp231/) [TARBALL](michelleshie.tar.bz2.txt)<br>
 009. nayyara-airlangga: [GH](https://github.com/nayyara-airlangga/sp231/) [GHP](https://nayyara-airlangga.github.io/sp231/) [LOG](https://nayyara-airlangga.github.io/sp231/TXT/mylog.txt) [TARBALL](nayyara-airlangga.tar.bz2.txt)<br>
 010. ReeyaDono: [GH](https://github.com/ReeyaDono/sp231/) [GHP](https://ReeyaDono.github.io/sp231/) [LOG](https://ReeyaDono.github.io/sp231/TXT/mylog.txt) [TARBALL](ReeyaDono.tar.bz2.txt)<br>
 011. rorre: [GH](https://github.com/rorre/sp231/) [GHP](https://rorre.github.io/sp231/) [LOG](https://rorre.github.io/sp231/TXT/mylog.txt) [TARBALL](rorre.tar.bz2.txt)<br>

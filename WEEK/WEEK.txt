@@ -6,7 +6,7 @@
 | 06-Mar-2023 | Week 04 | GetOpt |
 | 13-Mar-2023 | Week 05 | Autoconf and Automake |
 | 20-Mar-2023 | Week 06 | Boxing/Unboxing |
-| 10-Apr-2023 | Week 07 | TBA |
+| 10-Apr-2023 | Week 07 | STDIN, STDOUT, STDERR, PIPE |
 | 17-Apr-2023 | Week 08 | TBA (Online) |
 | 08-May-2023 | Week 09 | TBA | 
 | 15-May-2023 | Week 10 | TBA |

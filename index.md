@@ -36,9 +36,9 @@ title:  "System Programming - Pemerograman Sistem"
 | 13-Mar-2023 | Week 05 | Autoconf and Automake |
 | 20-Mar-2023 | Week 06 | Boxing/Unboxing |
 | 10-Apr-2023 | Week 07 | Sync, SETUID, and MMAP |
-| 17-Apr-2023 | Week 08 | TBA (Online) |
-| 08-May-2023 | Week 09 | TBA | 
-| 15-May-2023 | Week 10 | TBA |
+| 17-Apr-2023 | Week 08 | Kernel Modules I (Online) |
+| 08-May-2023 | Week 09 | Kernel Modules II | 
+| 15-May-2023 | Week 10 | Kernel Modules III |
 
 [](NNNN)
 [&#x213C;](#)<br id="idx03"><br>

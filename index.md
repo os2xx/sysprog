@@ -4,7 +4,7 @@ title:  "System Programming - Pemerograman Sistem"
 ---
 
 <br>
-## Last Report: W10 Rev: 22-May-2023 20:15
+## Last Report: TBA
 * [See Report](/Log/)
 * [Weekly Assignments](https://osp4diss.vlsm.org/ASP.html)
 * [HOW TO CONTACT the lecturer](#idx01)
@@ -28,17 +28,17 @@ title:  "System Programming - Pemerograman Sistem"
 #### This schedule is subject to change!
 [](ZCZC)
 
-| 06-Feb-2023 | Week 00 | Overview |
-| 13-Feb-2023 | Week 01 | Linux Kernel and Programming Interface |
-| 20-Feb-2023 | Week 02 | Revisit Linux From Scratch |
-| 27-Feb-2023 | Week 03 | FUSE: Filesystem in Userspace |
-| 06-Mar-2023 | Week 04 | GetOpt |
-| 13-Mar-2023 | Week 05 | Autoconf and Automake |
-| 20-Mar-2023 | Week 06 | Boxing/Unboxing |
-| 10-Apr-2023 | Week 07 | Sync, SETUID, and MMAP |
-| 17-Apr-2023 | Week 08 | Kernel Modules I (Online) |
-| 08-May-2023 | Week 09 | Kernel Modules II | 
-| 15-May-2023 | Week 10 | Kernel Modules III |
+| 00-Xxx-2024 | Week 00 | Overview |
+| 00-Xxx-2024 | Week 01 | Linux Kernel and Programming Interface |
+| 00-Xxx-2024 | Week 02 | Revisit Linux From Scratch |
+| 00-Xxx-2024 | Week 03 | FUSE: Filesystem in Userspace |
+| 00-Xxx-2024 | Week 04 | GetOpt |
+| 00-Xxx-2024 | Week 05 | Autoconf and Automake |
+| 00-Xxx-2024 | Week 06 | Boxing/Unboxing |
+| 00-Xxx-2024 | Week 07 | Sync, SETUID, and MMAP |
+| 00-Xxx-2024 | Week 08 | Kernel Modules I (Online) |
+| 00-Xxx-2024 | Week 09 | Kernel Modules II | 
+| 00-Xxx-2024 | Week 10 | Kernel Modules III |
 
 [](NNNN)
 [&#x213C;](#)<br id="idx03"><br>

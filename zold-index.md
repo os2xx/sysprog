@@ -4,7 +4,7 @@ title:  "System Programming - Pemerograman Sistem"
 ---
 
 <br>
-## Last Report: W10 Rev: 22-May-2023 20:15
+## Last Report: TBA
 * [See Report](/Log/)
 * [Weekly Assignments](https://osp4diss.vlsm.org/ASP.html)
 * [HOW TO CONTACT the lecturer](#idx01)

@@ -8,7 +8,7 @@ title: REPORT
 To Get CBKADAL`s TARBALL:
 
 ```
-wget -c https://cbkadal.github.io/sp231/SandBox/cbkadal.tar.xz
+wget -c https://cbkadal.github.io/sp241/SandBox/cbkadal.tar.xz
 
 ```
 

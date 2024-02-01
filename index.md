@@ -34,7 +34,7 @@ title:  "System Programming - Pemerograman Sistem"
 | 29-Feb-2024 | Week 03 | FUSE: Filesystem in Userspace |
 | 07-Mar-2024 | Week 04 | GetOpt |
 | 14-Mar-2024 | Week 05 | Autoconf and Automake |
-| 06-Apr-2024 | Week 06 | Boxing/Unboxing |
+| 04-Apr-2024 | Week 06 | Boxing/Unboxing |
 | 18-Apr-2024 | Week 07 | Sync, SETUID, and MMAP |
 | 25-Apr-2024 | Week 08 | Kernel Modules I   |
 | 02-May-2024 | Week 09 | Kernel Modules II  | 

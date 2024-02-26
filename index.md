@@ -48,9 +48,9 @@ title:  "System Programming - Pemerograman Sistem"
 | [Slides](https://github.com/os2xx/docOS/tree/master/SPSlides/) | [OSP4DISS](https://osp4diss.vlsm.org/) | [Log Codes](https://doit.vlsm.org/ETC/logCodes.txt) |
 |        |
 | SLIDES |
-| [WEEK00](https:/docOS.vlsm.org/SPSlides/sp00.pdf) | [WEEK01](https:/docOS.vlsm.org/SPSlides/sp01.pdf) | [WEEK02](https:/docOS.vlsm.org/SPSlides/sp02.pdf) | [WEEK03](https:/docOS.vlsm.org/SPSlides/sp03.pdf) |
-| [WEEK04](https:/docOS.vlsm.org/SPSlides/sp04.pdf) | [WEEK05](https:/docOS.vlsm.org/SPSlides/sp05.pdf) | [WEEK06](https:/docOS.vlsm.org/SPSlides/sp06.pdf) | [WEEK07](https:/docOS.vlsm.org/SPSlides/sp07.pdf) |
-| [WEEK08](https:/docOS.vlsm.org/SPSlides/sp08.pdf) | [WEEK09](https:/docOS.vlsm.org/SPSlides/sp09.pdf) | [WEEK10](https:/docOS.vlsm.org/SPSlides/sp10.pdf) |
+| [WEEK00](https://docOS.vlsm.org/SPSlides/sp00.pdf) | [WEEK01](https://docOS.vlsm.org/SPSlides/sp01.pdf) | [WEEK02](https://docOS.vlsm.org/SPSlides/sp02.pdf) | [WEEK03](https://docOS.vlsm.org/SPSlides/sp03.pdf) |
+| [WEEK04](https://docOS.vlsm.org/SPSlides/sp04.pdf) | [WEEK05](https://docOS.vlsm.org/SPSlides/sp05.pdf) | [WEEK06](https://docOS.vlsm.org/SPSlides/sp06.pdf) | [WEEK07](https://docOS.vlsm.org/SPSlides/sp07.pdf) |
+| [WEEK08](https://docOS.vlsm.org/SPSlides/sp08.pdf) | [WEEK09](https://docOS.vlsm.org/SPSlides/sp09.pdf) | [WEEK10](https://docOS.vlsm.org/SPSlides/sp10.pdf) |
 | |
 | [TLPI: The Linux](https://man7.org/tlpi/) | [Programming Interface](https://man7.org/tlpi/) |
 | [TLPI Preface](https://man7.org/tlpi/download/TLPI-00-Preface.pdf) | [TLPI Ch. 4 File I/O](https://man7.org/tlpi/download/TLPI-04-File_IO_The_Universal_IO_Model.pdf) | [TLPI Ch. 24 Process](https://man7.org/tlpi/download/TLPI-24-Process_Creation.pdf) | [TLPI Ch. 53 POSIX Msg](https://man7.org/tlpi/download/TLPI-52-POSIX_Message_Queues.pdf) |
